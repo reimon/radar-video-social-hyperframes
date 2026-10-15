@@ -68,3 +68,13 @@ O README passou a incluir uma capa original gerada com imagegen e quatro diagram
 Nesta atualização foram conferidos os caminhos locais e as âncoras do README, a sintaxe do exemplo Bash de clonagem, a estrutura XML dos SVGs e a ausência de scripts ou referências externas nesses diagramas. As imagens foram abertas para inspeção visual; os SVGs foram rasterizados localmente apenas para essa revisão. O diff e a lista de arquivos preparados para commit foram revisados.
 
 A inclusão das imagens não representa integração da skill, execução do HyperFrames, teste de animação ou renderização de vídeo. Nenhum teste FFmpeg histórico foi repetido.
+
+## Edição visual do módulo de produção avançada
+
+Data: 15/10/2026.
+
+O módulo `references/hyperframes-producao-avancada.md` recebeu navegação, nove imagens conceituais, links para os identificadores de fontes e exemplos adicionais de plano de movimento, cálculo temporal, posição determinística e relatório de QA. As 15 seções e os blocos de código técnicos anteriores foram preservados. Quatro diagramas SVG foram adicionados, levando o repositório a dezoito arquivos.
+
+Foram conferidos os links e as âncoras locais, as definições dos identificadores de fontes, os blocos de código e a estrutura dos SVGs, sem scripts ou recursos externos nos arquivos vetoriais. Os quatro SVGs novos foram rasterizados localmente para inspeção visual. O cálculo JavaScript ilustrativo foi executado de forma isolada para conferir os valores comentados; isso não testa o runtime HyperFrames. O diff e a lista explícita de arquivos preparados para commit foram revisados.
+
+As URLs das imagens no módulo são públicas e mantêm a integração textual independente da cópia dos assets. Os diagramas representam propostas e explicações; não houve integração, execução do FFmpeg, animação ou renderização de vídeo nesta revisão.

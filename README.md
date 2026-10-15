@@ -6,7 +6,7 @@
 
 Uma extensão da etapa de produção da `radar-video-social`. O pacote reúne orientações de composição, animação, mídia, áudio e exportação para quem já usa uma skill editorial e quer organizar melhor a produção com HyperFrames.
 
-[Conheça os recursos](#recursos) · [Integre à sua skill](#integração) · [Veja as verificações](VERIFICACAO.md) · [Consulte as fontes](references/hyperframes-fontes.md)
+[Guia técnico ilustrado](references/hyperframes-producao-avancada.md) · [Conheça os recursos](#recursos) · [Integre à sua skill](#integração) · [Veja as verificações](VERIFICACAO.md) · [Consulte as fontes](references/hyperframes-fontes.md)
 
 > As cinco imagens deste README são ilustrações conceituais. Não são capturas do HyperFrames nem evidências de uma composição renderizada. A extensão contém documentação e exemplos técnicos; a skill completa e um projeto de vídeo pronto não fazem parte deste repositório.
 
@@ -108,6 +108,10 @@ radar-video-social-hyperframes/
     ├── VISUAIS.md
     └── images/
         ├── capa.png
+        ├── arquitetura-composicao.svg
+        ├── timing-midia.svg
+        ├── determinismo.svg
+        ├── politica-audio.svg
         ├── fluxo-producao.svg
         ├── video-em-janela.svg
         ├── movimento.svg

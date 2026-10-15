@@ -1,6 +1,6 @@
 # Imagens da documentação
 
-As cinco imagens do README foram criadas para explicar a extensão. São ilustrações conceituais: não mostram a interface real de uma ferramenta, não vieram do projeto privado e não demonstram um render ou teste HyperFrames executado.
+A documentação reúne uma capa e oito diagramas. O README usa cinco dessas imagens; o guia técnico ilustrado usa as nove para explicar a extensão. São ilustrações conceituais: não mostram a interface real de uma ferramenta, não vieram do projeto privado e não demonstram um render ou teste HyperFrames executado.
 
 | Arquivo | Origem e finalidade |
 |---|---|
@@ -9,6 +9,12 @@ As cinco imagens do README foram criadas para explicar a extensão. São ilustra
 | `images/video-em-janela.svg` | Storyboard vetorial estático. A paisagem e os contadores são sintéticos e ilustram continuidade entre enquadramentos. |
 | `images/movimento.svg` | Storyboard vetorial estático de entrada, explicação e repouso para leitura. |
 | `images/qualidade.svg` | Diagrama vetorial de verificações propostas ao redor de um corte e no arquivo exportado. |
+| `images/arquitetura-composicao.svg` | Diagrama vetorial da raiz e de três cenas ilustrativas, com correspondência entre IDs e chaves de timeline. |
+| `images/timing-midia.svg` | Diagrama vetorial que explica os tempos do exemplo HTML existente, sem alteração de velocidade. |
+| `images/determinismo.svg` | Diagrama vetorial de uma sequência de busca proposta, com comparação do mesmo instante. |
+| `images/politica-audio.svg` | Diagrama vetorial das decisões de manter, separar ou remover áudio. |
+
+Os quatro diagramas adicionais foram desenhados diretamente em SVG, seguindo o sistema visual já usado no README. Não foi necessária nova geração de imagem raster. No módulo técnico, as imagens usam URLs do repositório público para que a cópia dos três documentos de referência continue independente dos assets visuais. Sem rede, o texto técnico permanece disponível.
 
 Os SVGs são editáveis, têm títulos e descrições de acessibilidade e usam fontes do sistema, sem scripts, dependências ou imagens externas. A renderização dos SVGs para revisão é uma verificação das ilustrações, não uma renderização HyperFrames.
 
