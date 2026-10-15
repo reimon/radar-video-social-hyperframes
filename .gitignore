@@ -81,3 +81,6 @@ assets/
 *.blend
 *.glb
 *.gltf
+
+# Ilustração pública criada para o README
+!docs/images/capa.png

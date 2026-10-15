@@ -58,3 +58,13 @@ Uma cópia da skill original foi consultada somente para entender a integração
 Não foram executados nesta etapa: os presets FFmpeg, instalação de dependências, integração da extensão, clonagem das referências, HyperFrames, renderização, inspeção audiovisual ou publicação em redes sociais. As fontes externas foram preservadas como referências do pacote, sem nova auditoria do conteúdo online.
 
 A validação documental desta cópia não comprova compatibilidade com um runtime instalado. O ensaio de integração e os testes visuais continuam pendentes para quem incorporar o módulo.
+
+## Atualização visual do README
+
+Data: 15/10/2026.
+
+O README passou a incluir uma capa original gerada com imagegen e quatro diagramas SVG escritos para a documentação. A cópia pública passou de oito para quatorze arquivos. O registro da origem, do prompt da capa e do significado de cada ilustração está em `docs/VISUAIS.md`.
+
+Nesta atualização foram conferidos os caminhos locais e as âncoras do README, a sintaxe do exemplo Bash de clonagem, a estrutura XML dos SVGs e a ausência de scripts ou referências externas nesses diagramas. As imagens foram abertas para inspeção visual; os SVGs foram rasterizados localmente apenas para essa revisão. O diff e a lista de arquivos preparados para commit foram revisados.
+
+A inclusão das imagens não representa integração da skill, execução do HyperFrames, teste de animação ou renderização de vídeo. Nenhum teste FFmpeg histórico foi repetido.
